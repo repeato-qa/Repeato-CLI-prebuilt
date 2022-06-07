@@ -1,0 +1,183 @@
+Introduction
+These User Terms of Service ("Terms") are between you ("you") and NetRabbit e.U. ("we") and govern your use of all versions of the NetRabbit software and services, including the Repeato Desktop Software, Beta Previews, certain APIs we offer (collectively, the "Services"), and the Repeato websites, including but not limited to www.repeato.app (the "Websites").
+
+
+Binding Agreement
+
+By downloading, installing, or using the Services on any computer system, or by accepting these Terms (either by clicking a box indicating that you accept these Terms, or by executing an ordering document ("Order") referencing these Terms), you acknowledge and agree that you have read, understand, and agree to be bound by these Terms and our Privacy Policy. We reserve the right to modify these Terms at its discretion. If we make any material changes to these Terms, we may notify you by email or posting a notice on www.repeato.app. If you do not agree to, or cannot comply with, the modified Terms, you must stop using the Services and Websites. The updated Terms will take effect upon their posting and will apply on a going-forward basis, unless otherwise provided in a notice to you. Your continued use of the Services and Websites after any such update constitutes your acceptance of such changes. Except as set forth in this paragraph, no modification or amendment of any provision of these Terms will be effective unless in writing and signed by the party against whom the modification or amendment is to be asserted. If you are agreeing to these Terms not as an individual but on behalf of your company, government, or other entity for which you are acting (for example, as an employee or government official) then "you" means your entity and you are binding your entity to these Terms. If you do not have such authority or if you do not agree with these Terms, do not accept these Terms and do not use the Services.The Services are not intended for and should not be used by anyone under the age of 13, and we do not permit any Users under 13 on our Services. The term "User" means any individual that Uses the Services (as defined in Section 3 below). You must ensure that all of your Users are at least 13 years old. If we learn of any User under the age of 13, we will terminate that User's Account immediately. If you are a resident of a country outside the United States, your country's minimum age may be older; in that case, you are responsible for complying with your country's laws.You may not use the Services in violation of export control or sanctions laws of the United States or any other applicable jurisdiction. You may not use the Services if you are or are working on behalf of a Specially Designated National (SDN) or a person subject to similar blocking or denied party prohibitions administered by a U.S. government agency.
+
+
+3. Use of the Services
+3.1 Right to Use
+Subject to your compliance with these Terms and paying the applicable fees, we grant you a revocable, non-exclusive, non-transferable, non-sublicensable, limited right to use* the Services on a subscription basis in executable code form in accordance with these Terms. Except for the limited rights expressly set out in these Terms, we grant you no other license or right in the Services. Your rights will end when these Terms are terminated even if there are terms to the contrary set out elsewhere in these Terms or in other documentation entered into between NetRabbit e.U. and you.
+
+*Use, Using or Used means to directly or indirectly activate the processing capabilities of the Services, load, execute, access, utilize, store, employ the Services, or display information resulting from such capabilities, including uploading any Content** or creating or generating any Content by utilizing the capabilities of the Services.
+
+**Content refers to content featured or displayed through the Services (including through the Websites), including without limitation code, text, data, articles, images, photographs, graphics, software, applications, packages, designs, features, and other materials that are available on the Websites or otherwise available through the Services. "User-Generated Content" is Content, written or otherwise, that Users upload into or create by using the Services. "Your Content" is User-Generated Content that you or your Users submit to the Services.
+
+The Services include certain code and libraries licensed to us by third parties, including open-source software ("OSS") as listed at www.repeato.app/third-party-licenses along with the applicable OSS license. Your right to use such OSS shall be governed by the applicable OSS license agreement instead of these Terms.
+
+
+3.2 Repeato Account
+The Services allow a User to create an individual account ("Account"). The information you provide to us when you create an Account must be accurate, complete and current. You also have the obligation to keep your Account information accurate, complete and current at all times. If any of the information you submit to us changes, you must promptly update the same.
+
+At any given point in time, a single User’s Account may only be logged in on a single computer system.
+
+You must keep your Account access credentials safe and secure. You are responsible for all actions taken through your Accounts. You are required to promptly inform us and modify your Account login credentials or those of a permitted User if such login credentials are compromised and/or misused/likely to be misused by a third party to improperly access the Services through your Account.
+
+
+3.3 Repeato Teams
+All versions of the Repeato Services may support working collaboratively in teams.
+
+The User who will be responsible for the establishment and management of your team is referred to as an Admin User. Once your Admin User has created your Account, they can invite other Users to Use the Services through the "invite" feature in the Account. The Admin User will be required to provide the name, email address, and any other information required by Repeato for each User.
+
+An Admin User shall be entitled to designate more than one Admin User. Upon such designation, each new Admin User will be able to do everything that any other Admin User is permitted to do by the Services and these Terms.
+
+We charge you a fee for each User to whom you want to provide the ability to Use the Services on your behalf. You must not allow any form of time-sharing use, permit more than one individual to use the same Repeato login credentials, or any other arrangement which bypasses or defeats Repeato’s system controls designed to enforce team size limits. Subject to the terms herein, your Admin Users may add or remove Users from your Account by following relevant instructions set out in Repeato’s standard published documentation for the Services. If you exceed the number of User subscriptions purchased, you may be charged additional fees, according to prices listed at www.repeato.app/pricing.
+
+
+3.4 The Repeato API
+Your Account may be accessible via the Repeato application programming interface ("Repeato API"). Any use of the Repeato API, including use of the Repeato API through a third-party product that accesses an Account, the Services or the Websites is subject to these Terms, including the following:
+
+Excessively frequent requests via the Repeato API (in excess of the rate limits set out at api.repeato.com) may result in the temporary or permanent suspension of your team's access to the Repeato API. We, in our sole discretion, will determine abuse or excessive usage of the Repeato API. We will make a reasonable attempt via email to communicate with the Admin User prior to suspension.
+
+We reserve the right at any time to modify or discontinue, temporarily or permanently, your access to the Repeato API (or any part thereof) with or without notice.
+
+You expressly understand and agree that we shall not be liable for any direct, indirect, incidental, special, consequential or exemplary damages, including but not limited to, damages for loss of profits, goodwill, use, data or other intangible losses (even if we have been advised of the possibility of such damages), resulting from your use of the Repeato API, including any access to Your Content via the Repeato API.
+
+
+3.5 Beta Previews
+"Beta Previews" mean software, services, or features identified as alpha, beta, preview, early access, or evaluation, or words or phrases with similar meanings. Beta Previews may not be supported and may be changed at any time without notice. In addition, Beta Previews are not subject to the same security measures and auditing to which the Services has been and is subject. By using a Beta Preview, you Use it at your own risk.
+
+
+4. NetRabbit’s Proprietary Rights and Non-exclusivity
+We have only licensed the Services to you and we do not sell the Services. You acknowledge and agree that we and our licensors have and retain all legal rights, title, and interest in the Services including but not limited to any ideas, concepts, inventions, systems, platforms, interfaces, tools, utilities, user interface, algorithms, logic, formula, scripts, workflows, processes, software, methodologies, databases, know-how, trade secrets and other technology and information including any and all intellectual property rights that exist therein, whether registered or not and wherever in the world they may exist. As between you and us, we shall retain all legal rights, title, and interest in the Content, excluding Your Content. We reserve all rights in and to the Services and Content that it does not expressly grant you in these Terms.
+
+Your rights under these Terms are non-exclusive. There is no prohibition or restriction on us to provide the same or similar rights as set out in these Terms to any other person.
+
+
+5. Use of Content
+5.1 You may create or upload User-Generated Content while using the Services. You are solely responsible for the contents of, and for any consequences resulting from, any User-Generated Content that you post, upload, link to, or otherwise make available via the Services, regardless of the form of that Content. By uploading User-Generated Content while using the Services, you represent and warrant that you have all necessary rights to submit the User-Generated Content and that the User-Generated Content is, to your knowledge, accurate, not confidential, and not in violation of any applicable laws, contractual restrictions or other third party rights, including intellectual property rights or privacy-related rights of any person or entity. You also agree that your profile information will be accurate. We are not responsible for any public display or misuse of your User-Generated Content.
+
+5.2 We have the right to refuse or remove any Content that, in our sole discretion, violates any laws or our terms or policies.
+
+5.3 You retain ownership of and responsibility for Your Content. You agree that you are solely responsible for any Content you post; that you will only submit Content that you have the right to post; and that you will fully comply with any third party licenses relating to Content you post. 
+
+6. Personal Information
+Your Use of the Services does not require any personally identifiable information to be uploaded into or included in the Services except to the extent set forth in this paragraph. You hereby permit us to collect, use, store and process email address(es), IP addresses from which you access the Services and other login or authentication credentials from both your Users and you in order to ensure that your Users and you have proper access to the Services and to resolve any issues you may encounter while Using the Services. This information may be considered personal data or personal information under the laws of the jurisdiction from which you access and Use the Services. We shall collect, use, store and/or process this information only for the purposes listed herein and in our Privacy Policy, which you acknowledge. Unless otherwise required by applicable law, upon termination of these Terms, any information provided by you for creation of your Account will be deleted by us from our records within a reasonable period of time following such termination, normally within six months after such termination.
+
+We may collect certain data and information from you in connection with your use of the Services and otherwise in connection with these Terms. All such data and information will be collected and used by us in accordance with our Privacy Policy.
+
+
+7. Fees and Payment
+7.1 Fees
+Your use of the Services is subject to you paying us the fees applicable to the Services plan selected and/or used by you ("Subscription Fee"). The Subscription Fees, permitted usage, and available features for each Services plan are listed at repeato.app/pricing (the "Pricing").
+
+You will pay all fees in Euros per the payment terms on an Order or otherwise agreed at the time of purchase. The amount of fees payable by you shall vary depending upon the number of Users and the period for which you are authorized to use the Services ("Subscription Term"). Payment obligations are non-cancelable and, except the “Trial Period” (see below), fees paid are non-refundable. In making payment, you acknowledge and agree that you are not relying on being able to use the Services beyond the Subscription Term or on the availability of any future enhancements or upgrades. If you fail to pay any fees on time, We reserve the right, in addition to taking any other action at law or equity, to (i) charge interest on past due amounts at 1.0% per month or the highest interest rate allowed by law, whichever is less, and to charge all expenses of recovery, and (ii) suspend or terminate the applicable Services. If you make any purchases through a reseller ("Reseller"), you owe payment to the Reseller as agreed between you and the Reseller, but you acknowledge that we may terminate your right to Use the Services if we do not receive our corresponding payment from the Reseller.
+
+Except as otherwise specified in an Order, all subscriptions will automatically renew for periods equal to your initial Subscription Term (and you will be charged at the then-current rates set forth in the Pricing) unless you cancel auto-renewal of your subscription through your Account at least thirty (30) days prior to the end of the then-current Subscription Term. If you cancel auto-renewal, your subscription will terminate at the end of the current billing cycle, or immediately if you so choose, however you will not be entitled to any credits or refunds for amounts accrued or paid prior to such termination.
+
+For example, if your monthly subscription period ends on the 15th of every month, and you cancel on the 20th, you’ll continue to have full access until the 15th of the following month, but you won’t be charged again after that.
+
+If your annual subscription period is on the 100th day of the year, and you cancel on the 120th day, you will continue to have full access until the 100th day of the following year, but you won’t be charged again after that.
+
+You may cancel your annually billed plan within the first 30 days from the date of original sign-up or at least 1 day before your annual subscription renewal date. Once you cancel your paid subscription, you won’t be charged again.
+
+
+7.2. Trial Period
+We offer you a money-back guaranty for the first 30 days of use of the product, which compensates users who were not satisfied with the Services. The first day of use starts with the day of order.
+
+
+7.3 Taxes
+Our fees are exclusive of all taxes that are payable in respect of the Services or its Use in the jurisdiction in which the payment is either made or received ("Taxes"). To the extent that any Taxes may be payable, you must pay us the amount of such Taxes in addition to any Subscription Fees owed by you hereunder. Any applicable tax-exempt certificates must be provided to us, who will make reasonable efforts to provide you with such invoicing documents as may enable you to seek an applicable refund or credit for the amount of Taxes so paid from any relevant revenue authority.
+
+
+7.4 Payment by Credit Card
+When you purchase a subscription ("Purchase"), you expressly authorize us (or our third-party payment processor) to charge you the Subscription Fee (at the then-current Pricing) and Taxes, as follows: (i) monthly in advance for monthly plans, (ii) annually in advance for annual plans, and (iii) for additional Users you add during an existing Subscription Term. Subscription Fees are subject to change, although we will notify you in advance of any such change.
+
+We may ask you to supply additional information relevant to your Purchase, including your credit card number and expiration date, and your billing address (such information, "Payment Information"). You represent and warrant that you have the legal right to use all payment method(s) represented by any such Payment Information. When you initiate a purchase, you authorize us to provide your Payment Information to our third-party service providers so we can complete your Purchase and charge your payment method for the type of Purchase you have selected (plus any Taxes and other applicable charges).
+
+
+7.5 Authorization for Recurring Payments
+By agreeing to these Terms and purchasing a subscription, you acknowledge that your subscription has recurring payment features and you accept responsibility for all recurring payment obligations prior to cancellation or termination of your subscription by you or us. We (or our third-party payment processor) will automatically charge you in accordance with your Subscription Term (e.g., each month or year), on the calendar day corresponding to the commencement of your Subscription Term, using the Payment Information you have provided. In the event your Subscription Term begins on a day not contained in a given month, your payment method will be charged on such other day as we deem appropriate. For example, if you started a monthly subscription on January 31st, your next payment date is likely to be February 28th, and your payment method would be billed on that date. Your subscription continues until canceled by you or till we terminate your access to or use of the Services or the subscription in accordance with these Terms. You will pay all fees in Euros per the payment terms on an Order or as otherwise agreed at the time of purchase.
+
+
+8. Restrictions
+You and your Users shall not:
+
+Use the Services for any illegal purpose or in a manner that violates any law or rights of any other person;
+
+Permit Use of the Services in a manner not authorized by these Terms;
+
+Disassemble, decompile, unlock, reverse engineer, or decode the Services in any manner or modify or create any derivative works based on the Services;
+
+Re-sell, grant any rights under these Terms to any third party or lease, time-share, lend or rent Services;
+
+Copy any features, functions, or user interfaces of the Services;
+
+Introduce any malicious code, virus, malware, or any other material that disrupts, slows down or causes the Services to malfunction;
+
+Upload or generate any Content that is unlawful, harassing, threatening, harmful, tortious, defamatory, libelous, abusive, violent, obscene, vulgar, infringing of another’s rights or invasive of another's privacy, hateful, racially or ethnically offensive, or otherwise objectionable; or
+
+Use the Services if you are under 13 years of age.
+
+You may not use information from the Services (whether scraped, collected by making use of the Repeato Services, or obtained otherwise) for spamming purposes, including for the purposes of sending unsolicited emails to users or selling personal information, such as to recruiters, headhunters, and job boards.
+
+Misuse of User personal information is prohibited. Any person, entity, or service collecting data from the Services must comply with our Privacy Policy, particularly in regards to the collection of personal information. If you collect any personal information from the Services, you agree that you will only use that personal information for the purpose for which that User has authorized it. You agree that you will reasonably secure any personal information you have gathered from the Services, and you will respond promptly to complaints, removal requests, and "do not contact" requests from us or other Users.
+
+
+9. Additional Features
+We shall from time to time release additional features of the Services. Use of these features may be subject to payment of fees and other terms as prescribed by us. To use such additional features in the Services, you are required to abide by such additional terms and pay fees, as applicable.
+
+
+10. Disclaimers
+YOU EXPRESSLY UNDERSTAND AND AGREE THAT YOUR USE OF THE SERVICES IS AT YOUR SOLE RISK AND THAT THE SERVICES AND CONTENT ARE PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTY OF NON-INFRINGEMENT, TITLE, FUNCTIONALITY, MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE, ALL OF WHICH ARE DISCLAIMED TO THE FULLEST EXTENT PERMITTED BY LAW . YOU MAY HAVE OTHER STATUTORY RIGHTS, BUT THE DURATION OF STATUTORILY REQUIRED WARRANTIES, IF ANY, SHALL BE LIMITED TO THE SHORTEST PERIOD PERMITTED BY LAW. WE DO NOT WARRANT THAT THE SERVICES OR CONTENT WILL MEET YOUR REQUIREMENTS OR THAT OPERATION OF THE SERVICES OR THE CONTENT WILL BE SECURE, ERROR FREE, VIRUS FREE OR UNINTERRUPTED, THAT ANY CONTENT OR STORED DATA WILL BE ACCURATE OR RELIABLE, THAT ANY CONTENT OR STORED DATA WILL NOT BE LOST OR CORRUPTED, OR THAT IT WILL BE ABLE TO RECTIFY/REMEDY ANY ERRORS OR DEFECT.
+
+YOU HAVE CHOSEN TO USE THE SERVICES AND CONTENT ON YOUR OWN VOLITION AND WE BEAR NO RESPONSIBILITY AS TO THE QUALITY AND PERFORMANCE OF THE SERVICES OR CONTENT. WE WILL NOT UNDER ANY CIRCUMSTANCE BE RESPONSIBLE FOR LOSS OF ANY DATA WHETHER FROM YOUR COMPUTER OR THE SERVER, DUE TO USE OF THE SERVICES OR CONTENT.
+
+WE HAVE NO CONTROL OVER THE CONTENT USED, UPLOADED OR GENERATED BY YOU IN YOUR USE OF THE SERVICES. WE UNDERTAKE NO RESPONSIBILITY FOR ANY LOSS THAT YOU OR ANY OTHER PERSON MAY SUFFER DUE TO ANY WAY YOU MAKE USE OF THE SERVICES. WE HAVE NO CONTROL OVER THE USE THAT ANY THIRD PARTY MAY PUT TO ANY CONTENT THAT IS SHARED BY YOU VIA THE SERVICES. WE ASSUME NO RESPONSIBILITY FOR ANY LOSS THAT YOU OR ANY THIRD PARTY MAY SUFFER DUE TO USE OF THE SERVICES.
+
+WE SHALL NOT BE LIABLE FOR DELAYS, INTERRUPTIONS, SERVICE FAILURES OR OTHER PROBLEMS INHERENT IN THE USE OF THE INTERNET AND ELECTRONIC COMMUNICATIONS OR OTHER SYSTEMS OUTSIDE OUR REASONABLE CONTROL.
+
+
+11. Indemnity And Liability
+
+
+11.1 Indemnification by You
+You will defend us from any claim made by a third party in connection with any Content uploaded or generated by you or your Users in your Use of the Services, and you will indemnify and hold us harmless against any damages and costs finally awarded by a court of competent jurisdiction or agreed to in a settlement by you (including reasonable attorneys' fees) arising out of such a claim, provided that you have received from us: (a) prompt written notice of the claim (but in any event notice in sufficient time for you to respond without prejudice); (b) reasonable assistance in the defense and investigation of the claim, including providing you a copy of the claim and all relevant evidence in our possession, custody or control (at your request and expense); and (c) the exclusive right to control and direct the investigation, defense, and settlement (if applicable) of the claim, provided that you may not settle any claim unless the settlement unconditionally releases us of all liability.
+
+
+11.2 Limitation of Liability
+YOU EXPRESSLY UNDERSTAND AND AGREE THAT WE, OUR REPRESENTATIVES, AND LICENSORS SHALL NOT BE LIABLE TO YOU UNDER ANY THEORY OF LIABILITY FOR ANY LOSS OF DATA, LOSS OF USE, FAILURE OF SECURITY MECHANISMS, BUSINESS INTERRUPTION, LOSS OF INCOME OR PROFIT, OR ANY INDIRECT, INCIDENTAL, SPECIAL CONSEQUENTIAL OR EXEMPLARY LOSS OR DAMAGES THAT MAY BE INCURRED BY YOU ARISING OUT OF OR RELATED TO THESE TERMS OR THE SERVICES OR CONTENT, WHETHER OR NOT WE OR OUR REPRESENTATIVES HAVE BEEN ADVISED OF OR SHOULD HAVE BEEN AWARE OF THE POSSIBILITY OF ANY SUCH LOSSES ARISING. EXCEPT IN CASE OF YOUR VIOLATION OF THE RESTRICTIONS IN SECTION 8, NEITHER PARTY'S LIABILITY TO THE OTHER SHALL EXCEED THE FEES PAID BY YOU TO US IN THE 12 MONTHS IMMEDIATELY PRECEDING THE EVENT GIVING RISE TO THE CLAIM. NOTWITHSTANDING ANYTHING TO THE CONTRARY IN THESE TERMS, OUR LIABILITY TO YOU FOR SERVICES THAT ARE FREE OF CHARGE SHALL NOT EXCEED EUR 50.
+
+
+12. Termination And Take-Down
+We will not terminate these Terms except as set out in this section below. Should you wish to terminate these Terms, you are required to provide 14 days' notice to us by sending an email with subject line "Services Termination" to support@repeato.app and specifically mention the Services you are Using.
+
+We have the right to terminate these Terms, if (i) you have breached any term in these Terms, (ii) it is required to do so under law, or (iii) We decide to discontinue the Services.
+
+
+13. Publicity Rights
+We may identify you as our customer in our promotional materials. You may request that we stop doing so by submitting an email to office@repeato.app at any time.
+
+
+14. General Terms
+These Terms constitute the entire agreement between you and us regarding your Use of the Services, and supersedes all prior agreements (written or oral) between you and us in relation to the Services. You agree that any term or condition stated in your purchase order or in any other order documentation is void. In the event of any conflict or inconsistency among the following documents, the order of precedence shall be: (1) the applicable Order, and (2) these Terms.
+
+You must keep all information received by you from us in relation to the Services or otherwise, strictly confidential. You are not permitted to share that information with any third party without prior written permission of us.
+
+You agree that if we do not exercise or enforce any legal right or remedy which is contained in these Terms (or which we have the benefit of under any applicable law), this will not be taken to be a formal waiver of our rights and that those rights or remedies will still be available to us.
+
+If any court of law, having the jurisdiction to decide on this matter, rules that any provision of these Terms is invalid, then that provision shall be deemed removed from these Terms without affecting the rest of the Terms. The remaining provisions of these Terms will continue to be valid and enforceable.
+
+The rights granted in these Terms may not be assigned or transferred by you without the prior written approval of us. You are not permitted to delegate your responsibilities or obligations under these Terms without the prior written approval of us. We are entitled to assign, transfer or delegate any right, responsibility, duty, or obligation under these Terms.
+
+The Terms apply whether you purchase our Services directly from us or through a Reseller. Resellers are not authorized to make any promises or commitments on our behalf, and we are not bound by any obligations to you other than what we specify in these Terms.
+
+We're always trying to improve Services, and your feedback as a User (including Beta Previews) will help us do that. If you choose to give us any ideas, know-how, algorithms, code contributions, suggestions, enhancement requests, recommendations or any other feedback for our Services (collectively, "Feedback"), you acknowledge and agree that we will have a royalty-free, fully paid-up, worldwide, transferable, sub-licensable, irrevocable and perpetual license to implement, use, modify, commercially exploit and/or incorporate the Feedback into our Services and documentation. Please send any feedback that you have for the Services to support@repeato.app.
+
+The Services are subject to export restrictions by the Austrian government and may be subject to import restrictions by certain foreign governments. You agree to comply with all applicable export and import laws and regulations in your access to, use of, and download of the Services (or any part thereof). You shall not (and shall not allow any third party to) remove or export from Austria or allow the export or re-export or transfer (in-country) of any part of the Services or any direct product thereof: (a) into (or to a national or resident of) any embargoed or terrorist-supporting country; (b) to anyone on the U.S. Commerce Department’s Denied Persons, Entity, or Unverified Lists or the U.S. Treasury Department’s list of Specially Designated Nationals and Consolidated Sanctions list (collectively, “Prohibited Persons”); (c) to any country to which such export or re-export is restricted or prohibited, or as to which the United States government or any agency thereof requires an export license or other governmental approval at the time of export or re-export without first obtaining such license or approval; or (d) otherwise in violation of any export or import restrictions, laws or regulations of any United States or foreign agency or authority. You further agree not to upload to the Services any content, data or software that cannot be exported, reexported, transferred, or exported into any country without prior written government notification, authorization, or other approval, including, but not limited to, certain types of encryption software. You represent and warrant that (i) you are not located in, under the control of, or a national or resident of any such prohibited country and (ii) none of Your Content is controlled under the U.S. International Traffic in Arms Regulations or similar Laws in other jurisdictions. You also certify that you are not a Prohibited Person nor owned, controlled by, or acting on behalf of a Prohibited Person. You agree not to use or provide the Services for any prohibited end-use, including to support any nuclear, chemical, or biological weapons proliferation, or missile technology, or to a military end-user or for a military end-use.
+
+These Terms shall be governed by the laws of the state of Austria, without regard to any conflict of law provisions. You and NetRabbit e.U. agree to submit to the exclusive jurisdiction of the state and federal courts located in the state of Austria to resolve any dispute arising out of these Terms or the use of the Services.
+
+The obligations in Sections 3.5.2, 4, 5, 6, 7, 8, 10, 11, 12, and 14 will survive any expiration or termination of these Terms.
