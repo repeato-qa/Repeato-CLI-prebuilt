@@ -9,6 +9,8 @@ That's also true for the test run artefacts: All data is stored as image data (s
 
 Repeato CLI is built using nodejs which makes it possible to run it on almost any system. However, it has dependencies to native modules, which makes it necessary to build parts of it for the target OS and platform. That's why we prebuild the package and ship it this way.
 
+![screenshot of Repeato CLI](https://www.repeato.app/wp-content/uploads/2022/05/repeato-continuous-integration-CLI-testrunner-1024x482.png)
+
 ## Inputs:
 
 The testrunner essentially needs two inputs:
