@@ -9,8 +9,6 @@ That's also true for the test run artefacts: All data is stored as image data (s
 
 Repeato CLI is built using nodejs which makes it possible to run it on almost any system. However, it has dependencies to native modules, which makes it necessary to build parts of it for the target OS and platform. That's why we prebuild the package and ship it this way.
 
-![screenshot of Repeato CLI](https://www.repeato.app/wp-content/uploads/2022/05/repeato-continuous-integration-CLI-testrunner-1024x482.png)
-
 ## Inputs:
 
 The testrunner essentially needs two inputs:
@@ -34,12 +32,12 @@ The testrunner essentially needs two inputs:
 
 ## Outputs:
 
-1. An html file containing a table with links pointing to the test run results is created in the root folder of Repeato CLI
-2. A JUnit xml file is created in the root folder of Repeato CLI
-3. For each test a testRun object is created in `[workspaceDir]/[testId]/test.json`
-4. For each test step a screenshot is created in `[workspaceDir]/[testId]/testRuns/[deviceId]/`
-5. An html batch report is created in the `[workspaceDir]/batchReports` directory. The batchReport directory can be shared via a webserver to make the report accessible to your QA team.
-6. A batchRun.json file containing all the batch run information in `[workspaceDir]/batchReports/[your batch report]` directory
+1. A JUnit xml file is created in the root folder of Repeato CLI
+2. For each test a testRun object is created in `[workspaceDir]/[testId]/test.json`
+3. For each test step a screenshot is created in `[workspaceDir]/[testId]/testRuns/[deviceId]/`
+4. An html batch report is created in the `[workspaceDir]/batchRuns` directory. The exported directory can be shared via a webserver to make the report accessible to your QA team.
+5. A batchRun.json file containing all the batch run information in `[workspaceDir]/batchReports/[your batch report]` directory
+6. Returns with exit code 0 if batch runner managed to run all tests, even if a test failed. Returns different exit code if some error occured during execution.
 
 ## Requirements:
 
@@ -47,13 +45,18 @@ Supported nodejs version: 14.18 (you can use nvm to switch to the right nodejs v
 
 Supported operating systems: MacOS, Windows, Linux
 
+For **Apple Sillicon (M1 / ARM architecture)**, you need to use node v16 (node v16.13.0 is tested)
+
 ## Installing testrunner
 
-This distribution comes as a prebuilt package. Just extract it to a directory of your choice.
+This distribution comes as a prebuilt package. Download from here: https://github.com/repeato-qa/repeato-cli-prebuilt/releases
+
+Just download and extract it to a directory of your choice.
 
 ## Additional scripts
 
 - `clearAllTestRunData.js`: Deletes all test run data in the workspace. Execute it each time before a batch run to get a fresh batch run report without any history data from previous batch runs. It's open source, so feel free to edit and adjust it to your needs.
+- `server.js`: Demo implementation of a simple nodeJs http server for serving batch run results
 
 ## Install emulator on Windows
 
