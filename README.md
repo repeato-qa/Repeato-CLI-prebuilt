@@ -22,16 +22,30 @@ The testrunner essentially needs two inputs:
 `node testrun.js --help` will print all the required and optional params:
 
 ```
---workspaceDir: path to the workspace directory
---deviceId: optional. The device ID of the device you want to connect to.
-  List Android devices via 'adb devices' or iOS simulators via 'xcrun simctl list'
---batchId: which batch should be executed. just execute testrun.js -w [workspace-dir] to see a list of contained batches
---runMode: "AllTests" | "OnlyFailed" (default: "AllTests")
---waitDurationBetweenSteps: optional. Additional wait time between step executions can help during debugging or to increase test stability. (default: 0, milliseconds)
---outputDir: option to override the default export path (default is: [workspaceDir]/batchRuns)
---logLevel: "TRACE" | "DEBUG" | "INFO" (default: "INFO")
---force: ignore errors (DB version mismatch) and execute anyway
---licenseKey: license key to unlock full feature set of Repeato-CLI
+Required params:
+  --workspaceDir: Path to the workspace directory
+  --deviceId: Optional. The device ID of the device you want to connect to
+    List Android devices via 'adb devices' or iOS simulators via 'xcrun simctl list'
+
+Optional params:
+  --batchId: Which batch should be executed.
+    Just execute testrun.js -w [workspace-dir] to see a list of contained batches
+  --runMode: "AllTests" | "OnlyFailed" (default: "AllTests")
+  --timeoutFactor: Since some CI servers sometimes don't provide as much performance as local machines,
+    it can be useful to increase the timeout when running on a server by a factor. E.g pass 1.5 to increase the timeouts by 50% (default: 1.0)
+  --waitDurationBetweenSteps: Additional wait time between step executions can help during debugging or to increase test stability.
+    (default: 0, milliseconds)
+  --outputDir: Override the default export path for batch run reports (default is: [workspaceDir]/batchRuns)
+  --logLevel: "WARN" | "INFO" | "DEBUG" (default: "INFO")
+  --force: Ignore errors (DB version mismatch) and execute anyway
+  --licenseKey: License key to unlock full feature set of Repeato-CLI
+
+Examples
+  $ testrun.js --workspaceDir [path to your workspace]
+  List all batches in your workspace, just execute
+
+  $ testrun.js --workspaceDir [path to your workspace] --batchId [ID of your batch]
+  Executes all the tests in a given batch)
 ```
 
 ## Outputs:
