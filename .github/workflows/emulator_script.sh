@@ -10,15 +10,13 @@ MACHINE_TYPE=`uname -m`
 
 # Use below script to install latest CLI always
 RELEASE_URL=$(node ./.github/workflows/latest-cli-release.js "${MACHINE_TYPE}" "") 
-echo "RELEASE_URL:"
-echo $RELEASE_URL
 wget -q "${RELEASE_URL}" -O repeato-cli.zip
 unzip -qq repeato-cli.zip -d repeato-cli/
 
 cd repeato-cli
 
 # log.txt is optional paramter - you may remove it (only needed when you want to send logs to REPEATO for debugging)
-node testrun.js --licenseKey "$LICENSE_KEY" --workspaceDir "../workspace-tests" --batchId "0" --outputDir "../batch-report" --logLevel DEBUG
+node testrun.js --licenseKey "$LICENSE_KEY" --workspaceDir "../workspace-tests" --batchId "0" --outputDir "../batch-report" --logLevel DEBUG > log.txt
 
 # cd ../batch-report # report path which is at root level
 
