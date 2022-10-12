@@ -42,7 +42,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: release-apk
-          path: build/app/outputs/flutter-apk/app-x86_64-release.apk
+          path: demo-app/build/app/outputs/flutter-apk/app-x86_64-release.apk
 
       - name: Android Emulator
         uses: ReactiveCircus/android-emulator-runner@v2.26.0
