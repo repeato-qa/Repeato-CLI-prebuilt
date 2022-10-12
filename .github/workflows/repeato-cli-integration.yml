@@ -51,7 +51,7 @@ jobs:
           profile: 'pixel_3a'
           ram-size: 8096M
           emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
-          script:  ./.github/workflows/emulator_script.sh 
+          script:  ./.github/workflows/testrunner-script.sh 
 
       - name: Upload Report
         uses: actions/upload-artifact@v3
