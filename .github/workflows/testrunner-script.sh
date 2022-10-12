@@ -2,10 +2,10 @@
 adb devices
 
 # Goto build folder and install the app according to emulator architecture
-cd build/app/outputs/flutter-apk/ && adb install app-x86_64-release.apk
+cd demo-app/build/app/outputs/flutter-apk/ && adb install app-x86_64-release.apk
 
 # install relevant repeato cli based on machine types
-cd ../../../../ # Back to root directory
+cd ../../../../../ # Back to root directory
 MACHINE_TYPE=`uname -m`
 
 # Use below script to install latest CLI always

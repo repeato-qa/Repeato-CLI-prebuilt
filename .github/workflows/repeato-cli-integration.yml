@@ -10,30 +10,33 @@ jobs:
     runs-on: macos-latest
 
     steps:
-      - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
           node-version: '14'
+      
+      - uses: actions/checkout@v3
 
       - name: Checkout flutter app repo
         uses: actions/checkout@v3
         with:
           repository: repeato-qa/flutter-demo-app
-          path: .
+          path: demo-app
+          clean: false
 
       - name: Checkout workspace repo
         uses: actions/checkout@v3
         with:
           repository: repeato-qa/demo-workspace
           path: workspace-tests
+          clean: false
 
       - name: Install Flutter
         uses: subosito/flutter-action@v2
         with:
           flutter-version: '3.0.1'
           channel: 'stable'
-      - run: flutter pub get
-      - run: flutter build apk --split-per-abi
+      - run: cd demo-app && flutter pub get
+      - run: flutter build apk --split-per-abi && cd ..
 
       - name: Upload APK
         uses: actions/upload-artifact@v3
@@ -51,7 +54,7 @@ jobs:
           profile: 'pixel_3a'
           ram-size: 8096M
           emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
-          script:  ./.github/workflows/testrunner-script.sh 
+          script: ./.github/workflows/testrunner-script.sh 
 
       - name: Upload Report
         uses: actions/upload-artifact@v3
