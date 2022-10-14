@@ -7,7 +7,7 @@ const releaseName = `repeato-cli-mac${arch === 'arm64' ? '-arm' : ''}.zip`;
 
 const getDownloadURL = (data) => {
   const releases = JSON.parse(data);
-  console.log('foundReleases', releases)
+  // console.log('foundReleases', releases) // this get output in bash so result in invalid URL
   const latestRelease = releases[0]; // at first index latest release data
   const foundRelease = latestRelease?.assets?.find((release) => release.label === releaseName);
   console.log(foundRelease?.browser_download_url); // this will output the url for curl to download release
