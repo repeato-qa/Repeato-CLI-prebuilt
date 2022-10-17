@@ -57,7 +57,7 @@ jobs:
           profile: 'pixel_3a'
           ram-size: 8096M
           emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
-          script: npx @repeato/cli-testrunner --workspaceDir ../workspace-tests --batchId 0 --licenseKey ${{ secrets.REPEATO_LICENSE_KEY }} --outputDir ../batch-report
+          script: npx @repeato/cli-testrunner --workspaceDir "${GITHUB_WORKSPACE}/workspace-tests" --batchId 0 --licenseKey ${{ secrets.REPEATO_LICENSE_KEY }} --outputDir ../batch-report
 
       - name: Upload Report
         uses: actions/upload-artifact@v3
