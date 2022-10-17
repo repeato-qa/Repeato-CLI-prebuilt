@@ -61,9 +61,9 @@ jobs:
       - name: Run Emulator & Tests
         uses: repeato-qa/testrun-github-action@main
         with:
-          workspaceDir: ../workspace-tests
-          batchId: 0
-          licenseKey: $LICENSE_KEY
+          workspace-dir: ../workspace-tests
+          batch-id: 0
+          license-key: ${{ secrets.REPEATO_LICENSE_KEY }}
 
       - name: Upload Report
         uses: actions/upload-artifact@v3
