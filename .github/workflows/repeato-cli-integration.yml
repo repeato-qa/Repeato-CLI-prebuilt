@@ -47,7 +47,7 @@ jobs:
           name: release-apk
           path: demo-app/build/app/outputs/flutter-apk/app-x86_64-release.apk
 
-      - name: Android Emulator
+      - name: Start Android emulator and run tests
         uses: ReactiveCircus/android-emulator-runner@v2.26.0
         with:
           api-level: 29
@@ -57,13 +57,7 @@ jobs:
           profile: 'pixel_3a'
           ram-size: 8096M
           emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
-
-      - name: Run Emulator & Tests
-        uses: repeato-qa/testrun-github-action@main
-        with:
-          workspace-dir: ../workspace-tests
-          batch-id: 0
-          license-key: ${{ secrets.REPEATO_LICENSE_KEY }}
+          script: npx @repeato/cli-testrunner --workspaceDir ../workspace-tests --batchId 0 --licenseKey ${{ secrets.REPEATO_LICENSE_KEY }} --outputDir ../batch-report
 
       - name: Upload Report
         uses: actions/upload-artifact@v3
