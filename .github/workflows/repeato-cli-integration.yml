@@ -1,4 +1,4 @@
-name: Repeato CLI UI Testing Test Run
+name: Run Repeato CLI
 
 on:
   release:
