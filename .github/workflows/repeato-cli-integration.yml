@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/setup-node@v3
         with:
-          node-version: '14'
+          node-version: '16'
       
       - uses: actions/checkout@v3
 
@@ -59,7 +59,7 @@ jobs:
           emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
 
       - name: Run Emulator & Tests
-        uses: repeato-qa/testrun-github-action@v1
+        uses: repeato-qa/testrun-github-action@main
         with:
           workspaceDir: ../workspace-tests
           batchId: 0
