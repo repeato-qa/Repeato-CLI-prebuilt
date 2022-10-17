@@ -3,6 +3,9 @@ name: Repeato CLI UI Testing Test Run
 on:
   release:
     types: [published]
+  push:
+    branches:
+      - main
 
 jobs:
   repeato-cli:
