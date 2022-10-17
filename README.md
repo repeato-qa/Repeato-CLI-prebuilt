@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Repeato CLI is a headless test runner that allows you to execute test batches designed with [Repeato Studio](https://www.repeato.app).
+Repeato CLI is a headless test runner that allows you to execute test batches designed with [Repeato Studio](https://www.repeato.app)..
 
 ![Repeato CLI screenshot](https://www.repeato.app/wp-content/uploads/2022/08/cli-screenshot.png)
 
