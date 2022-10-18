@@ -37,13 +37,14 @@ jobs:
         uses: ReactiveCircus/android-emulator-runner@v2.26.0
         with:
           api-level: 29
+          arch: x86_64
           force-avd-creation: true
           emulator-options: -no-snapshot-save -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
           disable-animations: true
           target: google_apis
           profile: pixel_3a
           ram-size: 8096M
-          script: adb install demo-app/app.apk && npx @repeato/cli-testrunner --workspaceDir "${GITHUB_WORKSPACE}/workspace-tests" --batchId 0 --licenseKey ${{ secrets.REPEATO_LICENSE_KEY }} --outputDir "${GITHUB_WORKSPACE}/batch-report"
+          script: adb install demo-app/app-x86_64-release.apk && npx @repeato/cli-testrunner --workspaceDir "${GITHUB_WORKSPACE}/workspace-tests" --batchId 0 --licenseKey ${{ secrets.REPEATO_LICENSE_KEY }} --outputDir "${GITHUB_WORKSPACE}/batch-report"
 
       - name: Upload Report
         uses: actions/upload-artifact@v3
