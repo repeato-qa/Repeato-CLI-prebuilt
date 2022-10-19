@@ -32,18 +32,36 @@ jobs:
           repository: repeato-qa/demo-workspace
           path: workspace-tests
           clean: false
-  
-      - name: Start Android emulator and run tests
-        uses: ReactiveCircus/android-emulator-runner@v2.26.0
+
+      - name: Gradle cache
+        uses: gradle/gradle-build-action@v2
+        
+      - name: AVD cache
+        uses: actions/cache@v3
+        id: avd-cache
         with:
-          api-level: 29
-          arch: x86_64
-          force-avd-creation: true
+          path: |
+            ~/.android/avd/*
+            ~/.android/adb*
+          key: avd-${{ matrix.api-level }}
+
+      - name: create AVD and generate snapshot for caching
+        if: steps.avd-cache.outputs.cache-hit != 'true'
+        uses: reactivecircus/android-emulator-runner@d7b53ddc6e44254e1f4cf4a6ad67345837027a66
+        with:
+          api-level: ${{ matrix.api-level }}
+          force-avd-creation: false
+          emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
+          disable-animations: false
+          script: echo "Generated AVD snapshot for caching."
+
+      - name: run tests
+        uses: reactivecircus/android-emulator-runner@d7b53ddc6e44254e1f4cf4a6ad67345837027a66
+        with:
+          api-level: ${{ matrix.api-level }}
+          force-avd-creation: false
           emulator-options: -no-snapshot-save -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
           disable-animations: true
-          target: google_apis
-          profile: pixel_3a
-          ram-size: 8096M
           script: adb install demo-app/app-x86_64-release.apk && npx @repeato/cli-testrunner --workspaceDir "${GITHUB_WORKSPACE}/workspace-tests" --batchId 0 --licenseKey ${{ secrets.REPEATO_LICENSE_KEY }} --outputDir "${GITHUB_WORKSPACE}/batch-report"
 
       - name: Upload Report
