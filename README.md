@@ -1,4 +1,6 @@
-# Repeato CLI Test Runner
+# Repeato CLI Test Runner -> DEPRECATED! <-
+
+Use new distribution via npm instead: https://www.npmjs.com/package/@repeato/cli-testrunner
 
 ## Introduction
 
